@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply px-12 h-16 rounded-md hover:opacity-80
+  }
+}
+
+@layer components {
+  
+}
+
+.card {
+  color: #5f162b
+}
